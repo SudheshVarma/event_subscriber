@@ -1,0 +1,8 @@
+name: 'Custom Exceptions'
+description: 'Provides custom exception handling.'
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+version: 8.x-1.0
+package: Custom
+core_incompatible: false

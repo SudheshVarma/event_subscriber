@@ -1,0 +1,6 @@
+services:
+  custom_exceptions.event_subscriber:
+    class: Drupal\custom_exceptions\EventSubscriber\CustomHandler
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }
